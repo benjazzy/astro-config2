@@ -46,6 +46,7 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      rust_analyzer = { settings = { ["rust_analyzer"] = { checkOnSave = { command = "clippy" }, }, }, },
     },
     -- customize how language servers are attached
     handlers = {
