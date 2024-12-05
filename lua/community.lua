@@ -11,5 +11,9 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.editing-support.nvim-treesitter-context" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.editing-support.vim-doge" },
+  { import = "astrocommunity.editing-support.vim-move" },
   -- import/override with your plugins folder
 }
